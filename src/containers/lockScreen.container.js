@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import LockWallpaperScreen from "../components/lockScreen/landing.lockScreen";
-import lockScreenWall from "../assets/images/wallpapers/lockScreenWall.jpg";
+import lockScreenWall from "../assets/images/wallpapers/lockScreenWall.png";
 import SignInScreen from "../components/lockScreen/signIn.lockScreen";
 import { useContextMenu } from "react-contexify";
 import "react-contexify/dist/ReactContexify.css";

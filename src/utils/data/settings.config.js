@@ -1,4 +1,4 @@
-import default_wallpaper from "../../assets/images/wallpapers/default_wallpaper.jpg";
+import default_wallpaper from "../../assets/images/wallpapers/default_wallpaper.png";
 import wallpaper1 from "../../assets/images/wallpapers/wallpaper1.jpg";
 import wallpaper2 from "../../assets/images/wallpapers/wallpaper2.jpg";
 import wallpaper3 from "../../assets/images/wallpapers/wallpaper3.jpg";
