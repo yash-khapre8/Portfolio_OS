@@ -1,10 +1,11 @@
+import ResumePDF from "./Yash_Resume.pdf";
 import default_avatar from "../../assets/images/baseImages/default_avatar.svg";
 
 const user = {
 	firstName: "Yash",
 	lastName: "Khapre",
 	userImage: default_avatar,
-	resume: null,
+	resume: ResumePDF,
 	email: "yashkhapre08@gmail.com",
 	linkedIn: "in/-yash",
 	gitHub: "yash-khapre8",
@@ -109,6 +110,26 @@ const user = {
 		{
 			name: "Tools",
 			values: ["Git", "Postman", "Figma", "Elasticsearch", "Kafka", "WebSockets"],
+		},
+	],
+	certifications: [
+		{
+			title: "Professional Certificate in DevOps",
+			issuer: "Industry Recognized",
+			year: "2022",
+		},
+		{
+			title: "Full Stack Web Application Development",
+			issuer: "Industry Recognized",
+			year: "2022",
+		},
+	],
+	volunteer: [
+		{
+			role: "GDG Cloud Mumbai Member / Attendee",
+			organization: "Google Developer Groups Cloud Mumbai",
+			description:
+				"Attended cloud and DevOps workshops; collaborated with engineers on real-world cloud architecture problem-solving sessions.",
 		},
 	],
 };

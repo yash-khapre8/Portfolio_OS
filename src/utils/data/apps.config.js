@@ -22,6 +22,8 @@ import settings from "../../assets/images/apps/settings.svg";
 import BackgroundSettings from "../../components/applications/settings/background.settings";
 import MacOSSettings from "../../components/macOS/settings/macOSSettings";
 
+import Certifications from "../../components/applications/about/certifications.about";
+
 const appConfig = [
 	{
 		id: "aboutMe",
@@ -51,6 +53,10 @@ const appConfig = [
 			{
 				name: "Skills",
 				component: Skills,
+			},
+			{
+				name: "Certifications",
+				component: Certifications,
 			},
 			{
 				name: "Resume",
