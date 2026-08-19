@@ -2,6 +2,7 @@
   "name": "yashkhapre",
   "version": "0.2.0",
   "private": true,
+  "homepage": "https://yash-khapre8.github.io/Portfolio_OS",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fluentui/react": "^8.120.8",
@@ -33,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
