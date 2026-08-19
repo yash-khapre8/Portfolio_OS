@@ -8,7 +8,7 @@ const user = {
 	email: "yashkhapre08@gmail.com",
 	linkedIn: "in/-yash",
 	gitHub: "yash-khapre8",
-	vscodeUrl: "https://github1s.com/yash-khapre8/Portfolio_OS_Theme/blob/master/src/App.js",
+	vscodeUrl: "https://github1s.com/yash-khapre8/Portfolio_OS/blob/main/src/App.js",
 	twitter: "",
 	aboutMe: {
 		intro: " I'm a Computer Engineering student and Full Stack Developer from Mumbai, India.",

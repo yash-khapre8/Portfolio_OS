@@ -5,8 +5,8 @@ import { Icon } from "@fluentui/react";
 function VSCode() {
 	const defaultUrl =
 		user.vscodeUrl ||
-		`https://github1s.com/${user.gitHub}/Portfolio_OS_Theme/blob/master/src/App.js`;
-	const githubUrl = `https://github.com/${user.gitHub}/Portfolio_OS_Theme`;
+		`https://github1s.com/${user.gitHub}/Portfolio_OS/blob/main/src/App.js`;
+	const githubUrl = `https://github.com/${user.gitHub}/Portfolio_OS`;
 
 	const [iframeUrl, setIframeUrl] = useState(defaultUrl);
 
@@ -30,7 +30,7 @@ function VSCode() {
 			>
 				<div className="uk-flex uk-flex-middle">
 					<Icon iconName="Code" style={{ marginRight: "8px", color: "#0078d4" }} />
-					<span>VSCode Repository Viewer — <strong>{user.gitHub}/Portfolio_OS_Theme</strong></span>
+					<span>VSCode Repository Viewer — <strong>{user.gitHub}/Portfolio_OS</strong></span>
 				</div>
 				<div className="uk-flex uk-flex-middle">
 					<button

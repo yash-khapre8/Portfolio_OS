@@ -28,7 +28,7 @@ function DesktopContextMenu(props) {
 				<Item
 					onClick={() =>
 						navigate(
-							`https://github.com/${user.gitHub}/Portfolio_OS_Theme/`
+							`https://github.com/${user.gitHub}/Portfolio_OS/`
 						)
 					}
 				>
@@ -58,7 +58,7 @@ function DesktopContextMenu(props) {
 				<Item
 					onClick={() =>
 						navigate(
-							`https://github.com/${user.gitHub}/Portfolio_OS_Theme/`
+							`https://github.com/${user.gitHub}/Portfolio_OS/`
 						)
 					}
 				>

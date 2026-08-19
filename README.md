@@ -21,10 +21,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/yash-khapre8/Portfolio_OS_Theme.git
+$ git clone https://github.com/yash-khapre8/Portfolio_OS.git
 
 # Go into the repository
-$ cd Portfolio_OS_Theme
+$ cd Portfolio_OS
 
 # Install dependencies
 $ npm install
