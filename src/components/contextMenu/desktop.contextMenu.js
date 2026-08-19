@@ -110,7 +110,7 @@ function DesktopContextMenu(props) {
 						className="uk-margin-small-right"
 						alt="Credits"
 					/>
-					Credits
+					System Info
 				</Item>
 				<Separator />
 			</Menu>

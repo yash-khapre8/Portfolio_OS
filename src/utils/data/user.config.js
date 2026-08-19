@@ -68,21 +68,21 @@ const user = {
 			description:
 				"AI-Powered Code Review Platform — Engineered a full-stack MERN AI code review platform that reduced code review turnaround time by 40% by enabling real-time inline feedback on pull requests. Designed a scalable backend processing pipeline that improved concurrent request throughput by 3x and achieved sub-2-second API response times.",
 			madeWith: ["MongoDB", "Express.js", "React.js", "Node.js", "REST APIs", "Git"],
-			link: "https://github.com/yash-khapre8",
+			link: "https://github.com/yash-khapre8/Trace.ai",
 		},
 		{
 			projectName: "DevOps Two-Tier Flask App",
 			description:
 				"Deployed a containerized Flask-MySQL application on AWS EC2, reducing infrastructure setup time by 60% through Docker containerization and automated provisioning. Built a GitHub Actions CI/CD pipeline that reduced manual deployment steps from 12 to 2, achieving zero-downtime production releases.",
 			madeWith: ["Python", "Flask", "MySQL", "Docker", "AWS EC2", "GitHub Actions", "CI/CD"],
-			link: "https://github.com/yash-khapre8",
+			link: "https://github.com/yash-khapre8/DevOps-Two-Tier-Flask-App",
 		},
 		{
-			projectName: "TagMaster",
+			projectName: "AI-Labs",
 			description:
-				"Real-Time Collaborative Data Annotation Platform — Built a real-time collaborative annotation platform using WebSockets, supporting 10+ simultaneous users with role-based access control (RBAC), reducing annotation errors by 30%. Optimized MongoDB queries and indexing strategies, improving data retrieval speed by 2x on datasets with over 10,000 records.",
-			madeWith: ["MongoDB", "Express.js", "React.js", "Node.js", "WebSockets", "JavaScript"],
-			link: "https://github.com/yash-khapre8",
+				"This project was built as a practical implementation of AWS cloud architecture concepts including High Availability, Monitoring, Load Balancing, Database Management, Audit Logging, and Cost Optimization.",
+			madeWith: ["AWS", "EC2", "S3", "RDS", "Lambda", "Elasticsearch", "CloudWatch", "Terraform", "Docker"],
+			link: "https://github.com/yash-khapre8/Ai_lab-AWS",
 		},
 	],
 	skills: [

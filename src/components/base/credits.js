@@ -1,6 +1,6 @@
-import { IconButton, Modal, TooltipHost } from "@fluentui/react";
-
+import { IconButton, Modal } from "@fluentui/react";
 import React from "react";
+import user from "../../utils/data/user.config";
 
 function Credits(props) {
 	const cancelIcon = { iconName: "Cancel" };
@@ -14,22 +14,30 @@ function Credits(props) {
 			isBlocking={false}
 		>
 			<div className="uk-card uk-card-default uk-card-body uk-border-rounded">
-				<h3 className="uk-card-title">Credits</h3>
-				<p>
-					<table className="uk-table">
+				<h3 className="uk-card-title">System Information</h3>
+				<div>
+					<table className="uk-table uk-table-divider">
 						<tbody>
 							<tr>
-								<td>Framework : </td>
+								<td>Developer:</td>
+								<td>
+									<strong>{user.firstName} {user.lastName}</strong>
+								</td>
+							</tr>
+							<tr>
+								<td>Frameworks:</td>
 								<td>
 									<span
+										className="uk-link"
 										onClick={() =>
-											navigate("https://getuikit.com/")
+											navigate("https://reactjs.org/")
 										}
 									>
-										UIKit
+										React 18
 									</span>
-									{" ,"}{" "}
+									{", "}
 									<span
+										className="uk-link"
 										onClick={() =>
 											navigate(
 												"https://developer.microsoft.com/en-us/fluentui#/"
@@ -38,12 +46,22 @@ function Credits(props) {
 									>
 										Fluent UI
 									</span>
+									{", "}
+									<span
+										className="uk-link"
+										onClick={() =>
+											navigate("https://getuikit.com/")
+										}
+									>
+										UIKit
+									</span>
 								</td>
 							</tr>
 							<tr>
-								<td>Icons: </td>
+								<td>UI & Icons:</td>
 								<td>
 									<span
+										className="uk-link"
 										onClick={() =>
 											navigate("https://icons8.com/")
 										}
@@ -53,84 +71,20 @@ function Credits(props) {
 								</td>
 							</tr>
 							<tr>
-								<td>Apps Plugins: </td>
+								<td>Libraries:</td>
 								<td>
-									<span
-										onClick={() =>
-											navigate("https://quilljs.com/")
-										}
-									>
-										Quill.js
-									</span>
+									<span>React Redux</span>
 									{", "}
-									<span
-										onClick={() =>
-											navigate(
-												"https://www.npmjs.com/package/react-spreadsheet"
-											)
-										}
-									>
-										React Spreadsheet
-									</span>
+									<span>React Draggable</span>
 									{", "}
-									<span
-										onClick={() =>
-											navigate(
-												"https://www.jiosaavn.com/"
-											)
-										}
-									>
-										JioSaavn
-									</span>
+									<span>React Resizable</span>
 									{", "}
-									<span
-										onClick={() =>
-											navigate(
-												"https://github.com/conwnet/github1s"
-											)
-										}
-									>
-										Github1s
-									</span>
-								</td>
-							</tr>
-							<tr>
-								<td>Other Plugins : </td>
-								<td>
-									<span
-										onClick={() =>
-											navigate(
-												"https://www.npmjs.com/package/react-draggable"
-											)
-										}
-									>
-										React Draggable
-									</span>
-									{", "}
-									<span
-										onClick={() =>
-											navigate(
-												"https://www.npmjs.com/package/react-contexify"
-											)
-										}
-									>
-										ContextMenu
-									</span>
-									{", "}
-									<span
-										onClick={() =>
-											navigate(
-												"https://www.npmjs.com/package/react-live-clock"
-											)
-										}
-									>
-										React Live Clock
-									</span>
+									<span>Quill.js</span>
 								</td>
 							</tr>
 						</tbody>
 					</table>
-				</p>
+				</div>
 				<IconButton
 					iconProps={cancelIcon}
 					ariaLabel="Close popup modal"
@@ -138,17 +92,8 @@ function Credits(props) {
 					className="uk-position-top-right"
 				/>
 				<div className="uk-card-footer uk-text-center">
-					<p>
-						Made with{" "}
-						<TooltipHost
-							content="Nobody : ... ;
-							Michael : That's what she said !"
-						>
-							<span className="font-color-red font-size-medium">
-								&hearts;{" "}
-							</span>
-						</TooltipHost>
-						by Yash Khapre
+					<p className="uk-margin-remove">
+						Designed & Engineered with <span className="font-color-red">&hearts;</span> by <strong>{user.firstName} {user.lastName}</strong>
 					</p>
 				</div>
 			</div>
