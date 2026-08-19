@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio_OS/static/css/main.0adf53d3.css",
-    "main.js": "/Portfolio_OS/static/js/main.7d301418.js",
+    "main.js": "/Portfolio_OS/static/js/main.04f37882.js",
     "static/js/488.eb6241dd.chunk.js": "/Portfolio_OS/static/js/488.eb6241dd.chunk.js",
+    "static/media/lockScreenWall.png": "/Portfolio_OS/static/media/lockScreenWall.658da25bfb3ef7b9f4f4.png",
+    "static/media/default_wallpaper.png": "/Portfolio_OS/static/media/default_wallpaper.16379f071d25b4129461.png",
     "static/media/wallpaper2.jpg": "/Portfolio_OS/static/media/wallpaper2.92d1e0e05d61fd4b3875.jpg",
     "static/media/Yash_Resume.pdf": "/Portfolio_OS/static/media/Yash_Resume.267e1b05307be0a39f03.pdf",
     "static/media/vsCode.png": "/Portfolio_OS/static/media/vsCode.a61dc62c499ed3aeefdc.png",
-    "static/media/lockScreenWall.jpg": "/Portfolio_OS/static/media/lockScreenWall.8e66ddd605b2ac5b4529.jpg",
     "static/media/wallpaper3.jpg": "/Portfolio_OS/static/media/wallpaper3.6ad5b2223a1edd527bf2.jpg",
     "static/media/wallpaper1.jpg": "/Portfolio_OS/static/media/wallpaper1.00147d0103f7ee3f03c1.jpg",
-    "static/media/default_wallpaper.jpg": "/Portfolio_OS/static/media/default_wallpaper.4a4d34c7d746dcafe6e9.jpg",
     "static/media/jioSaavn.png": "/Portfolio_OS/static/media/jioSaavn.c745fcdde25644561b6c.png",
     "static/media/default_avatar.svg": "/Portfolio_OS/static/media/default_avatar.6dcde1154066897db8fbb6aa78597e26.svg",
     "static/media/chrome.svg": "/Portfolio_OS/static/media/chrome.79f312a286a3790f12bcc0c96c41f1b7.svg",
@@ -26,11 +26,11 @@
     "static/media/apple-logo.svg": "/Portfolio_OS/static/media/apple-logo.d7b08f211287b66bb2d0b236e1cf3cd6.svg",
     "static/media/windows-logo.svg": "/Portfolio_OS/static/media/windows-logo.48008b522191b1a9db17e0e76c87ceab.svg",
     "main.0adf53d3.css.map": "/Portfolio_OS/static/css/main.0adf53d3.css.map",
-    "main.7d301418.js.map": "/Portfolio_OS/static/js/main.7d301418.js.map",
+    "main.04f37882.js.map": "/Portfolio_OS/static/js/main.04f37882.js.map",
     "488.eb6241dd.chunk.js.map": "/Portfolio_OS/static/js/488.eb6241dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0adf53d3.css",
-    "static/js/main.7d301418.js"
+    "static/js/main.04f37882.js"
   ]
 }
