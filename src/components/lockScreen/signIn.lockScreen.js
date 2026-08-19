@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import avatar from "../../assets/images/baseImages/default_avatar.svg";
 import { Icon, PrimaryButton, TextField } from "@fluentui/react";
 import SocialBlock from "../base/socialBlock";
+import user from "../../utils/data/user.config";
 
 function SignInScreen() {
 	const dispatch = useDispatch();
@@ -27,7 +28,7 @@ function SignInScreen() {
 				</div>
 				<div>
 					<h1 className="uk-heading-small  font-color-white">
-						Srinibas Biswal
+						{user.firstName} {user.lastName}
 					</h1>
 				</div>
 				<div>

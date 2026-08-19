@@ -9,6 +9,7 @@ import github from "../../assets/images/contextMenu/github.svg";
 import { SCREENS } from "../../utils/documents/enums";
 import Credits from "../base/credits";
 import { useBoolean } from "@fluentui/react-hooks";
+import user from "../../utils/data/user.config";
 
 const MENU_ID = "context-menu";
 
@@ -27,7 +28,7 @@ function DesktopContextMenu(props) {
 				<Item
 					onClick={() =>
 						navigate(
-							"https://github.com/srinibasbiswal/Portfolio_OS_Theme/"
+							`https://github.com/${user.gitHub}/Portfolio_OS_Theme/`
 						)
 					}
 				>
@@ -57,7 +58,7 @@ function DesktopContextMenu(props) {
 				<Item
 					onClick={() =>
 						navigate(
-							"https://github.com/srinibasbiswal/Portfolio_OS_Theme/"
+							`https://github.com/${user.gitHub}/Portfolio_OS_Theme/`
 						)
 					}
 				>
@@ -73,7 +74,7 @@ function DesktopContextMenu(props) {
 				<Separator />
 				<Item
 					onClick={() =>
-						navigate("https://github.com/srinibasbiswal")
+						navigate(`https://github.com/${user.gitHub}`)
 					}
 				>
 					<img
@@ -88,7 +89,7 @@ function DesktopContextMenu(props) {
 				<Separator />
 				<Item
 					onClick={() =>
-						navigate("mailto:srinibasbiswal02@gmail.com")
+						navigate(`mailto:${user.email}`)
 					}
 				>
 					<img

@@ -8,21 +8,11 @@
 
 <h4 align="center">A customizable portfolio website based on Microsoft Windows 10 theme.</h4>
 
-<p align="center">  
-  <img alt="GitHub Workflow Status (branch)" src="https://img.shields.io/github/workflow/status/srinibasbiswal/Portfolio_OS_Theme/Build/master">
-  <img alt="Website" src="https://img.shields.io/website?down_color=lightgrey&down_message=DOWN&up_message=UP&url=https%3A%2F%2Fsrinibasbiswal.com%2F">
-</p>
-
 <p align="center">
   <a href="#installation">Installation</a> •
   <a href="#customization">Customization</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a> •
-  <a href="https://srinibasbiswal.com/">Live Demo</a>
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/18086651/120920034-63889e00-c6da-11eb-8dfa-1e97a9b0a829.gif" alt="srinibas-pwa-gif" />
+  <a href="#license">License</a>
 </p>
 
 ## Installation
@@ -31,7 +21,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/srinibasbiswal/Portfolio_OS_Theme.git
+$ git clone https://github.com/yash-khapre8/Portfolio_OS_Theme.git
 
 # Go into the repository
 $ cd Portfolio_OS_Theme
@@ -46,21 +36,18 @@ $ npm start
 $ npm run build
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-
 ## Customization
 
 1. Configuring User Data<br/>
 Replace the configuration with your details by changing in [user.config.js](src/utils/data/user.config.js) 
 
 2. Configuring App Settings<br/>
-Configure the App settings like enable/disable or showing the sidebar by changing in  [apps.config.js](src/utils/data/apps.config.js)
+Configure the App settings like enable/disable or showing the sidebar by changing in [apps.config.js](src/utils/data/apps.config.js)
 
 3. Configuring Wallpaper Settings<br/>
 Configure the wallpapers in [apps.config.js](src/utils/data/apps.config.js)
 
-3. Configuring Firebase Analytics<br/>
+4. Configuring Firebase Analytics<br/>
 Enable/disable the analytics by configuring in [project.config.js](src/utils/data/project.config.js)
 
 5. Configuring Firebase Account<br/>
@@ -93,15 +80,11 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 ## License
 
 MIT
 
 ---
 
-> [srinibasbiswal.com](https://srinibasbiswal.com) &nbsp;&middot;&nbsp;
-> GitHub [@srinibasbiswal](https://github.com/srinibasbiswal) &nbsp;&middot;&nbsp;
-> LinkedIn [@/in/srinibasbiswal](https://www.linkedin.com/in/srinibasbiswal/)
-
+> GitHub [@yash-khapre8](https://github.com/yash-khapre8) &nbsp;&middot;&nbsp;
+> LinkedIn [@/in/-yash](https://www.linkedin.com/in/-yash/)

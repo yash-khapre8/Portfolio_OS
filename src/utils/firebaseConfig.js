@@ -12,12 +12,18 @@ const firebaseConfig = {
 	appId: process.env.REACT_APP_APP_ID,
 };
 
-let app;
-let analytics;
+let app = null;
+let analytics = null;
 
 if (!getApps().length && projectConfig.enableAnalytics) {
-	app = initializeApp(firebaseConfig);
-	analytics = getAnalytics(app);
+	try {
+		app = initializeApp(firebaseConfig);
+		analytics = getAnalytics(app);
+	} catch (error) {
+		console.warn("Firebase Analytics initialization failed:", error.message);
+		app = null;
+		analytics = null;
+	}
 }
 
 export { analytics };
