@@ -39,12 +39,6 @@ function StartMenu() {
 		shouldFocusOnMount: true,
 		items: [
 			{
-				key: "lock",
-				iconProps: { iconName: "Lock" },
-				text: "Lock",
-				onClick: () => setNextSystemState("isLocked"),
-			},
-			{
 				key: "shutDown",
 				iconProps: { iconName: "PowerButton" },
 				text: "Shut Down",

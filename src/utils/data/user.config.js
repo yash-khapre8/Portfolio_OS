@@ -1,10 +1,11 @@
 import ResumePDF from "./Yash_Resume.pdf";
 import default_avatar from "../../assets/images/baseImages/default_avatar.svg";
+import yash_photo from "../../assets/images/baseImages/yash_photo.png";
 
 const user = {
 	firstName: "Yash",
 	lastName: "Khapre",
-	userImage: default_avatar,
+	userImage: yash_photo,
 	resume: ResumePDF,
 	email: "yashkhapre08@gmail.com",
 	linkedIn: "in/-yash",

@@ -1,8 +1,8 @@
 class SystemStateDocument {
 	constructor() {
-		this.isLocked = true;
+		this.isLocked = false;
 		this.isShutDown = false;
-		this.isDesktop = false;
+		this.isDesktop = true;
 	}
 }
 

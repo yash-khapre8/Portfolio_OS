@@ -29,7 +29,7 @@ function ShutDown() {
 						title="Power On"
 						ariaLabel="Power On"
 						className="power-button"
-						onClick={() => setNextSystemState("isLocked")}
+						onClick={() => setNextSystemState("isDesktop")}
 					/>
 				</div>
 			</div>
