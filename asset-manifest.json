@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio_OS/static/css/main.0adf53d3.css",
-    "main.js": "/Portfolio_OS/static/js/main.04f37882.js",
+    "main.css": "/Portfolio_OS/static/css/main.ae2f5c8b.css",
+    "main.js": "/Portfolio_OS/static/js/main.a240ad88.js",
     "static/js/488.eb6241dd.chunk.js": "/Portfolio_OS/static/js/488.eb6241dd.chunk.js",
-    "static/media/lockScreenWall.png": "/Portfolio_OS/static/media/lockScreenWall.658da25bfb3ef7b9f4f4.png",
+    "static/media/yash_photo.png": "/Portfolio_OS/static/media/yash_photo.1cf4dbe22233d096c93a.png",
     "static/media/default_wallpaper.png": "/Portfolio_OS/static/media/default_wallpaper.16379f071d25b4129461.png",
     "static/media/wallpaper2.jpg": "/Portfolio_OS/static/media/wallpaper2.92d1e0e05d61fd4b3875.jpg",
     "static/media/Yash_Resume.pdf": "/Portfolio_OS/static/media/Yash_Resume.267e1b05307be0a39f03.pdf",
@@ -25,12 +25,12 @@
     "static/media/checked.svg": "/Portfolio_OS/static/media/checked.d0e0a7002f12a4891f74d2b2e08881e5.svg",
     "static/media/apple-logo.svg": "/Portfolio_OS/static/media/apple-logo.d7b08f211287b66bb2d0b236e1cf3cd6.svg",
     "static/media/windows-logo.svg": "/Portfolio_OS/static/media/windows-logo.48008b522191b1a9db17e0e76c87ceab.svg",
-    "main.0adf53d3.css.map": "/Portfolio_OS/static/css/main.0adf53d3.css.map",
-    "main.04f37882.js.map": "/Portfolio_OS/static/js/main.04f37882.js.map",
+    "main.ae2f5c8b.css.map": "/Portfolio_OS/static/css/main.ae2f5c8b.css.map",
+    "main.a240ad88.js.map": "/Portfolio_OS/static/js/main.a240ad88.js.map",
     "488.eb6241dd.chunk.js.map": "/Portfolio_OS/static/js/488.eb6241dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0adf53d3.css",
-    "static/js/main.04f37882.js"
+    "static/css/main.ae2f5c8b.css",
+    "static/js/main.a240ad88.js"
   ]
 }
