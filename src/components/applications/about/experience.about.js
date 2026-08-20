@@ -20,7 +20,7 @@ function Experience() {
 											null &&
 										experience.organizationPicture !== ""
 											? experience.organizationPicture
-											: avatar
+											: user.userImage || avatar
 									}
 									alt="org"
 								/>

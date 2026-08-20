@@ -1,5 +1,4 @@
 import ResumePDF from "./Yash_Resume.pdf";
-import default_avatar from "../../assets/images/baseImages/default_avatar.svg";
 import yash_photo from "../../assets/images/baseImages/yash_photo.png";
 
 const user = {
@@ -21,7 +20,7 @@ const user = {
 	experiences: [
 		{
 			organization: "Blessing Softtech",
-			organizationPicture: default_avatar,
+			organizationPicture: yash_photo,
 			isCurrent: true,
 			startDate: "Aug 2026",
 			endDate: null,
@@ -38,7 +37,7 @@ const user = {
 		},
 		{
 			organization: "Indian Computer Technologies LLP",
-			organizationPicture: default_avatar,
+			organizationPicture: yash_photo,
 			isCurrent: false,
 			startDate: "Jan 2026",
 			endDate: "Mar 2026",
