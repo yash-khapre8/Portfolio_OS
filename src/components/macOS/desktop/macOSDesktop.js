@@ -5,7 +5,7 @@ import { handleApplicationClick } from "../../../utils/actions/app.action";
 import MacOSMenuBar from "../menuBar/menuBar";
 import MacOSDock from "../dock/dock";
 import MacOSAppWindow from "../appWindow/macOSAppWindow";
-import { SleepScreen, ShutdownScreen, LockScreen, StartupScreen } from "../systemScreens/systemScreens";
+import { SleepScreen, ShutdownScreen, StartupScreen } from "../systemScreens/systemScreens";
 import "./macOSDesktop.scss";
 
 function MacOSDesktop() {
@@ -14,7 +14,7 @@ function MacOSDesktop() {
     const dispatch = useDispatch();
 
     const [systemState, setSystemState] = useState({
-        isStarting: true,
+        isStarting: false,
         isSleeping: false,
         isShuttingDown: false,
         isLocked: false,
@@ -22,13 +22,6 @@ function MacOSDesktop() {
 
     useEffect(() => {
         dispatch(initApplications());
-
-        // Show startup animation for 2 seconds
-        const startupTimer = setTimeout(() => {
-            setSystemState(prev => ({ ...prev, isStarting: false }));
-        }, 2000);
-
-        return () => clearTimeout(startupTimer);
     }, [dispatch]);
 
     const handleSystemAction = (action) => {
@@ -71,10 +64,6 @@ function MacOSDesktop() {
         setSystemState({ ...systemState, isSleeping: false });
     };
 
-    const handleUnlock = () => {
-        setSystemState({ ...systemState, isLocked: false });
-    };
-
     // Show system screens if active
     if (systemState.isStarting) {
         return <StartupScreen />;
@@ -86,10 +75,6 @@ function MacOSDesktop() {
 
     if (systemState.isSleeping) {
         return <SleepScreen onWake={handleWake} />;
-    }
-
-    if (systemState.isLocked) {
-        return <LockScreen onUnlock={handleUnlock} />;
     }
 
     return (
