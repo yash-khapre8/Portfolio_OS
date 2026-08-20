@@ -1,25 +1,25 @@
 import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { initApplications } from "../utils/actions/app.action";
 import Desktop from "../components/desktop/desktop";
 import { useContextMenu } from "react-contexify";
 import "react-contexify/dist/ReactContexify.css";
 import DesktopContextMenu from "../components/contextMenu/desktop.contextMenu";
 import { SCREENS } from "../utils/documents/enums";
+import TechBackground from "../components/base/techBackground";
 
 const MENU_ID = "context-menu";
 
 function DesktopContainer() {
-	const current_settings = useSelector((state) => state.settingsState);
-
 	const dispatch = useDispatch();
 	useEffect(() => {
 		dispatch(initApplications());
-	});
+	}, [dispatch]);
 
 	const { show } = useContextMenu({
 		id: MENU_ID,
 	});
+
 	function handleContextMenu(event) {
 		event.preventDefault();
 		show(event, {
@@ -31,13 +31,20 @@ function DesktopContainer() {
 
 	return (
 		<div
-			className="uk-background-cover uk-background-muted screenHeight"
+			className="screenHeight"
 			style={{
-				backgroundImage: `url(${current_settings.currentWallpaper})`,
+				position: "relative",
+				width: "100vw",
+				height: "100vh",
+				overflow: "hidden",
+				backgroundColor: "#080d1a",
 			}}
 			onContextMenu={handleContextMenu}
 		>
-			<Desktop />
+			<TechBackground />
+			<div style={{ position: "relative", zIndex: 1, height: "100%" }}>
+				<Desktop />
+			</div>
 			<DesktopContextMenu location={SCREENS.DESKTOP} />
 		</div>
 	);

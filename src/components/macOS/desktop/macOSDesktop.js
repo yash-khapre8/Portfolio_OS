@@ -8,8 +8,9 @@ import MacOSAppWindow from "../appWindow/macOSAppWindow";
 import { SleepScreen, ShutdownScreen, StartupScreen } from "../systemScreens/systemScreens";
 import "./macOSDesktop.scss";
 
+import TechBackground from "../../base/techBackground";
+
 function MacOSDesktop() {
-    const current_settings = useSelector((state) => state.settingsState);
     const appState = useSelector((state) => state.appState);
     const dispatch = useDispatch();
 
@@ -45,15 +46,13 @@ function MacOSDesktop() {
                 setSystemState({ ...systemState, isLocked: true });
                 break;
             case "settings":
-                // Find and open settings app
                 const settingsApp = appState.apps?.find(app => app.id === "settings");
                 if (settingsApp) {
                     dispatch(handleApplicationClick(settingsApp));
                 }
                 break;
             case "about":
-                // Could show an about dialog
-                alert("Portfolio OS - macOS\\nVersion 1.0");
+                alert("Portfolio OS - macOS\nVersion 1.0");
                 break;
             default:
                 break;
@@ -64,7 +63,6 @@ function MacOSDesktop() {
         setSystemState({ ...systemState, isSleeping: false });
     };
 
-    // Show system screens if active
     if (systemState.isStarting) {
         return <StartupScreen />;
     }
@@ -81,9 +79,14 @@ function MacOSDesktop() {
         <div
             className="macos-desktop"
             style={{
-                backgroundImage: `url(${current_settings.currentWallpaper})`,
+                position: "relative",
+                width: "100vw",
+                height: "100vh",
+                overflow: "hidden",
+                backgroundColor: "#080d1a",
             }}
         >
+            <TechBackground />
             {/* Menu Bar at top */}
             <MacOSMenuBar onSystemAction={handleSystemAction} />
 
